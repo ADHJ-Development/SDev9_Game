@@ -14,7 +14,6 @@ public class LevelGenerator : MonoBehaviour
         for(int i = 0; i < Random.Range(3,8); i++)
         {
             generateEnemy(RandomEnemy(Random.Range(1,4)));
-           
         }
     }
 

@@ -10,7 +10,7 @@ public class LevelGenerator : MonoBehaviour
     public Transform Enemy_1;
    private void Awake()
     {
-        Instantiate(Enemy_1, new Vector3(2, -0.5f), Quaternion.identity);
+        Instantiate(Enemy_1, new Vector3(Random.Range(-6,8), -0.5f), Quaternion.identity);
     }
 
 }
